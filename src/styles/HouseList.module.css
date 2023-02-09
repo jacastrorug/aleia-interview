@@ -1,0 +1,35 @@
+.house_list_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.6rem;
+  gap: 2rem;
+}
+
+/* Shared styles */
+@media (min-width: 768px) {
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .house_list_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .house_list_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+  }
+}

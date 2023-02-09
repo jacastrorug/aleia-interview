@@ -1,0 +1,4 @@
+export const TOOGLE_MENU = 'TOOGLE_MENU';
+export const ADD_FAVORITES = 'ADD_FAVORITES';
+export const REMOVE_FAVORITES = 'REMOVE_FAVORITES';
+export const SET_HOUSES = 'SET_HOUSES';

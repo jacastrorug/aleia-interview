@@ -1,0 +1,116 @@
+.head_info_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head_info_title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 2.6rem;
+  line-height: 3.9rem;
+  color: var(--main-color);
+}
+
+.head_info_btn {
+  box-sizing: border-box;
+  width: 18.8rem;
+  height: 4rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  border: 1.5px solid var(--main-color);
+}
+
+.head_info_btn span {
+  color: var(--main-color);
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+}
+
+.arrow_styles {
+  height: 2rem;
+  width: 2rem;
+}
+
+/* Shared styles */
+@media (min-width: 768px) {
+  .head_info_container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .head_info_title {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    max-width: 42.9rem;
+  }
+
+  .head_info_btn {
+    box-sizing: border-box;
+    width: 26.1rem;
+    height: 5.8rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1.5px solid var(--main-color);
+  }
+
+  .head_info_btn span {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .arrow_styles {
+    height: 4.1rem;
+    width: 4.1rem;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .head_info_title {
+    font-size: 4rem;
+    line-height: 6rem;
+    max-width: 73rem;
+  }
+
+  .head_info_btn {
+    box-sizing: border-box;
+    width: 31rem;
+    height: 6.6rem;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 1.5px solid var(--main-color);
+  }
+
+  .head_info_btn span {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  .arrow_styles {
+    height: 4.1rem;
+    width: 4.1rem;
+  }
+}
