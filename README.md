@@ -1,8 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Technical test for [ALEIA](https://www.aleia.io/)
+## Technical test for [ALEIA](https://www.aleia.io/) company
 
-This test consists on implement the required UI and behavior Next.js based on the next [template](https://www.figma.com/file/5yWXX55HkvEvSzbXM3YCIu/Test-1?node-id=0%3A1)
+This test consists on implement the required UI and behavior in Next.js based on the next [template](https://www.figma.com/file/5yWXX55HkvEvSzbXM3YCIu/Test-1?node-id=0%3A1)
 
 First, run the development server:
 
